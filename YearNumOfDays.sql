@@ -1,0 +1,1 @@
+select datediff(day, cast(year(getdate()) as char(4)) + '0101', cast(year(getdate()) + 1 as char(4)) + '0101')
